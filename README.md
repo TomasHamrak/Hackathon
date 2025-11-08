@@ -1,0 +1,1 @@
+Figma design: https://www.figma.com/design/J9yFUDOzVBbUvJ4PWQrXO7/ED-hackathon-2025-Design-System--Copy-?node-id=286-5690&m=dev
