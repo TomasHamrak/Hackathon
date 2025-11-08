@@ -9,8 +9,14 @@ export default function Chat() {
         <header className="px-5 pt-10 pb-6 flex justify-between items-center">
           <h1 className="text-[42px] font-bold leading-[120%]">AI Agent</h1>
           <div className="flex gap-3">
-            <Edit className="w-6 h-6 text-app-white flex-shrink-0" strokeWidth={2} />
-            <Menu className="w-6 h-6 text-app-white flex-shrink-0" strokeWidth={2} />
+            <Edit
+              className="w-6 h-6 text-app-white flex-shrink-0"
+              strokeWidth={2}
+            />
+            <Menu
+              className="w-6 h-6 text-app-white flex-shrink-0"
+              strokeWidth={2}
+            />
           </div>
         </header>
 

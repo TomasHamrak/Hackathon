@@ -24,7 +24,13 @@ export default function Index() {
                 strokeLinecap="round"
                 strokeLinejoin="round"
               />
-              <circle cx="12.7505" cy="9.91634" r="3.5" stroke="white" strokeWidth="1.5" />
+              <circle
+                cx="12.7505"
+                cy="9.91634"
+                r="3.5"
+                stroke="white"
+                strokeWidth="1.5"
+              />
             </svg>
           </div>
           <div className="flex flex-col items-center gap-4">
@@ -52,7 +58,9 @@ export default function Index() {
 
         {/* Milestones History */}
         <div>
-          <h2 className="text-[26px] font-semibold mb-4 px-1">Milestones history</h2>
+          <h2 className="text-[26px] font-semibold mb-4 px-1">
+            Milestones history
+          </h2>
           <div className="relative h-[354px] bg-app-black rounded-lg">
             {/* Chart Container */}
             <div className="absolute inset-0 p-6">
@@ -131,7 +139,9 @@ export default function Index() {
                 <SkeletonBar width={72} color="tertiary" />
                 <SkeletonBar width={160} color="tertiary" />
               </div>
-              <span className="text-base font-semibold text-right min-w-[93px]">Clothes</span>
+              <span className="text-base font-semibold text-right min-w-[93px]">
+                Clothes
+              </span>
             </div>
 
             {/* Cigarettes */}
@@ -142,7 +152,9 @@ export default function Index() {
                 <SkeletonBar width={160} color="tertiary" />
               </div>
               <CircularProgress percentage={91} />
-              <span className="text-base font-semibold min-w-[93px]">Cigarettes</span>
+              <span className="text-base font-semibold min-w-[93px]">
+                Cigarettes
+              </span>
             </div>
 
             {/* Fuel */}
@@ -153,7 +165,9 @@ export default function Index() {
                 <SkeletonBar width={72} color="tertiary" />
                 <SkeletonBar width={160} color="tertiary" />
               </div>
-              <span className="text-base font-semibold text-right min-w-[90px]">Fuel</span>
+              <span className="text-base font-semibold text-right min-w-[90px]">
+                Fuel
+              </span>
             </div>
           </div>
         </div>

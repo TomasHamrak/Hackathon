@@ -95,7 +95,9 @@ export default function Investment() {
             </svg>
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="flex flex-col items-center gap-4">
-                <div className="text-[32px] font-bold leading-[120%]">€10,250</div>
+                <div className="text-[32px] font-bold leading-[120%]">
+                  €10,250
+                </div>
                 <SkeletonBar width={64} color="primary" />
                 <SkeletonBar width={132} color="tertiary" />
               </div>
@@ -106,7 +108,10 @@ export default function Investment() {
         {/* Investment Items */}
         <div className="space-y-0">
           {["Investment1", "Investment2", "Investment3"].map((name, i) => (
-            <div key={i} className="bg-app-grey px-6 py-6 flex flex-col items-end gap-4">
+            <div
+              key={i}
+              className="bg-app-grey px-6 py-6 flex flex-col items-end gap-4"
+            >
               <div className="flex items-center justify-between w-full">
                 <div className="flex-1" />
                 <span className="text-base font-medium">{name}</span>

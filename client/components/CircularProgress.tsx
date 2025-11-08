@@ -16,7 +16,10 @@ export default function CircularProgress({
   const offset = circumference - (percentage / 100) * circumference;
 
   return (
-    <div className={`relative ${className}`} style={{ width: size, height: size }}>
+    <div
+      className={`relative ${className}`}
+      style={{ width: size, height: size }}
+    >
       <svg
         width={size}
         height={size}
@@ -47,7 +50,9 @@ export default function CircularProgress({
       </svg>
       <div className="absolute inset-0 flex items-center justify-center">
         <div className="text-center">
-          <span className="text-[26px] font-bold leading-[120%]">{percentage}</span>
+          <span className="text-[26px] font-bold leading-[120%]">
+            {percentage}
+          </span>
           <span className="text-base font-normal ml-0.5">%</span>
         </div>
       </div>

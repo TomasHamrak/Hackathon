@@ -45,7 +45,13 @@ export default function Profile() {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                 />
-                <circle cx="36" cy="28" r="10.3971" stroke="white" strokeWidth="3.20571" />
+                <circle
+                  cx="36"
+                  cy="28"
+                  r="10.3971"
+                  stroke="white"
+                  strokeWidth="3.20571"
+                />
               </svg>
             </div>
           </div>

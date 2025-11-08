@@ -1,16 +1,11 @@
 import { Link, useLocation } from "react-router-dom";
-import {
-  CreditCard,
-  TrendingUp,
-  MessageSquare,
-  User,
-} from "lucide-react";
+import { CreditCard, TrendingUp, MessageSquare, User } from "lucide-react";
 
 export default function BottomNav() {
   const location = useLocation();
-  
+
   const isActive = (path: string) => location.pathname === path;
-  
+
   return (
     <div className="fixed bottom-0 left-0 right-0 bg-app-black border-t border-grey-70 shadow-[0_-2px_8px_0_rgba(255,255,255,0.04)] z-50">
       <div className="max-w-[500px] mx-auto">
